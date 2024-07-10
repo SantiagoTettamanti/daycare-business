@@ -1,10 +1,12 @@
 import '../index.css'
 import './landing.css'
+import firstImage from './landing-assets/landing-background-image.jpg'
+import secondImage from './landing-assets/image2.jpg'
 
 export default function Landing() {
     return (
         <main>
-            <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
+            {/* <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -17,6 +19,7 @@ export default function Landing() {
                         <div className="container">
                             <div className="carousel-caption text-start">
                                 <h1>Example headline.</h1>
+                                <img src={firstImage} alt="Matias" />
                                 <p>Some representative placeholder content for the first slide of the carousel.</p>
                                 <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
                             </div>
@@ -28,6 +31,7 @@ export default function Landing() {
                         <div className="container">
                             <div className="carousel-caption">
                                 <h1>Another example headline.</h1>
+                                <img src={secondImage} alt="Emilia" />
                                 <p>Some representative placeholder content for the second slide of the carousel.</p>
                                 <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
                             </div>
@@ -83,11 +87,46 @@ export default function Landing() {
                         <p>And lastly this, the third column of representative placeholder content.</p>
                         <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
                     </div>
+                </div> 
+            </div> */}
+
+            <div className='landing container-fluid'>
+                <div className="row d-flex flex-row justify-content-center align-items-center">
+                    <h1 className='title'>Susi's Daycare</h1>
+                    <img src={firstImage} alt="" />
                 </div>
+            </div>
+
+            <div className="container marketing">
 
 
+                <div className="row mt-5">
+                    <div className="col-lg-4">
+                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+                        <h2>Heading</h2>
+                        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                        <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div>
+                    <div className="col-lg-4">
+                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+                        <h2>Heading</h2>
+                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                        <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div>
+                    <div className="col-lg-4">
+                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+                        <h2>Heading</h2>
+                        <p>And lastly this, the third column of representative placeholder content.</p>
+                        <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div>
+                </div> 
+            </div>
 
 
+            <div>
                 <hr className="featurette-divider" />
 
                 <div className="row featurette">
