@@ -1,7 +1,9 @@
 import '../index.css'
 import './landing.css'
 import firstImage from './landing-assets/landing-background-image.jpg'
-import secondImage from './landing-assets/image2.jpg'
+import santi from '../assets/santi.png'
+import susi from '../assets/susi.jpg'
+
 
 export default function Landing() {
     return (
@@ -90,37 +92,34 @@ export default function Landing() {
                 </div> 
             </div> */}
 
-            <div className='landing container-fluid'>
+            {/* <div className='landing container-fluid'>
                 <div className="row d-flex flex-row justify-content-center align-items-center">
                     <h1 className='title'>Susi's Daycare</h1>
                     <img src={firstImage} alt="" />
                 </div>
+            </div> */}
+
+            <div className='landing'>
+            
+                    <h1 className='title'>Susi's Daycare</h1>
+                    <img className='landing-img' src={firstImage} alt="" />
+                
             </div>
+
 
             <div className="container marketing">
 
 
                 <div className="row mt-5">
-                    <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-                        <h2>Heading</h2>
-                        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-                        <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    <div className="col-lg-6">
+                        <img className='rounded-circle' width="140" height="140" src={susi} alt="" />
+                        <h2 className='bio-h2'>Susi</h2>
+                        <p className='bio'>Welcome to Susi's Daycare! With years of experience in both Montessori and elementary school settings, I bring a wealth of knowledge and passion to nurturing young minds. I am dedicated to creating a supportive environment where children can learn and grow through structured activities and creative play. My goal is to provide a safe and loving space for each child to flourish.</p>
                     </div>
-                    <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-                        <h2>Heading</h2>
-                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-                        <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
-                    </div>
-                    <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-                        <h2>Heading</h2>
-                        <p>And lastly this, the third column of representative placeholder content.</p>
-                        <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    <div className="col-lg-6">
+                        <img className='rounded-circle' width="140" height="140" src={santi} alt="" />
+                        <h2 className='bio-h2'>Santi</h2>
+                        <p className='bio'>Hello, I'm Santiago. With 8 years of educational background, my passion for creating enriching environments for children is at the forefront of my daycare approach. I am dedicated to providing a nurturing space where young minds can explore, learn, and grow. At [Your Daycare Name], I strive to foster a supportive atmosphere that encourages creativity and development in every child.</p>
                     </div>
                 </div> 
             </div>

@@ -7,26 +7,34 @@
   filter: blur(8px);
 }*/
 
-
-img {
+.landing {
   position: relative;
+  height: 40vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+.landing-img {
+  position: absolute;
   filter: blur(4px);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  top: 0;
+  left: 0;
 }
 
 .title {
   font-family: "Chicle";
   z-index: 2;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 0;
   right: 0;
-  font-size: 13vh;
-  width: 100%;
-  height: 26px;
-  padding: 0;
-  margin: 0;
-  margin-top: -13px; /* 1/2 height */
-  text-align: center;
+  font-size: min(7vw, 10em);
+
   color: aquamarine;
 }
 
@@ -88,10 +96,20 @@ body {
   -------------------------------------------------- */
   
   /* Center align the text within the three columns below the carousel */
-  .marketing {
-    background-color: khaki;
-  }
   
+.bio {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bio-h2 {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 10px;
+}
+
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
