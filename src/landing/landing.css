@@ -127,7 +127,21 @@ body {
   
   /* Featurettes
   ------------------------- */
-  
+
+.information {
+  margin: 0 10% 0 10%;
+}
+
+.info-title {
+font-family: 'Chicle';
+color: aquamarine ;
+}
+
+
+ul {
+  margin-left: 15%;
+}
+
   .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
   }

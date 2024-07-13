@@ -100,29 +100,14 @@ export default function Landing() {
             </div> */}
 
             <div className='landing'>
-            
-                    <h1 className='title'>Susi's Daycare</h1>
-                    <img className='landing-img' src={firstImage} alt="" />
-                
+
+                <h1 className='title'>Susi's Daycare</h1>
+                <img className='landing-img' src={firstImage} alt="" />
+
             </div>
 
 
-            <div className="container marketing">
 
-
-                <div className="row mt-5">
-                    <div className="col-lg-6">
-                        <img className='rounded-circle' width="140" height="140" src={susi} alt="" />
-                        <h2 className='bio-h2'>Susi</h2>
-                        <p className='bio'>Welcome to Susi's Daycare! With years of experience in both Montessori and elementary school settings, I bring a wealth of knowledge and passion to nurturing young minds. I am dedicated to creating a supportive environment where children can learn and grow through structured activities and creative play. My goal is to provide a safe and loving space for each child to flourish.</p>
-                    </div>
-                    <div className="col-lg-6">
-                        <img className='rounded-circle' width="140" height="140" src={santi} alt="" />
-                        <h2 className='bio-h2'>Santi</h2>
-                        <p className='bio'>Hello, I'm Santiago. With 8 years of educational background, my passion for creating enriching environments for children is at the forefront of my daycare approach. I am dedicated to providing a nurturing space where young minds can explore, learn, and grow. At [Your Daycare Name], I strive to foster a supportive atmosphere that encourages creativity and development in every child.</p>
-                    </div>
-                </div> 
-            </div>
 
 
             <div>
@@ -130,8 +115,8 @@ export default function Landing() {
 
                 <div className="row featurette">
                     <div className="col-md-7">
-                        <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It’ll blow your mind.</span></h2>
-                        <p className="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                        <h2 className="featurette-heading info-title">Welcome! </h2>
+                        <p className="lead information">Welcome to Susi's Daycare, where we believe in nurturing every child's potential in a safe and loving environment. Our dedicated team is committed to providing the highest quality care, ensuring each child feels valued and supported every day.</p>
                     </div>
                     <div className="col-md-5">
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
@@ -139,12 +124,11 @@ export default function Landing() {
                     </div>
                 </div>
 
-                <hr className="featurette-divider" />
 
                 <div className="row featurette">
                     <div className="col-md-7 order-md-2">
-                        <h2 className="featurette-heading">Oh yeah, it’s that good. <span className="text-muted">See for yourself.</span></h2>
-                        <p className="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+                        <h2 className="featurette-heading info-title">Our Philosophy</h2>
+                        <p className="lead information">At Susi's Daycare, we embrace a philosophy that centers on holistic child development. We believe in fostering curiosity, creativity, and independence through engaging activities and thoughtful guidance. Our approach ensures each child's unique strengths are celebrated, setting a foundation for lifelong learning and success.</p>
                     </div>
                     <div className="col-md-5 order-md-1">
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
@@ -152,12 +136,19 @@ export default function Landing() {
                     </div>
                 </div>
 
-                <hr className="featurette-divider" />
 
                 <div className="row featurette">
                     <div className="col-md-7">
-                        <h2 className="featurette-heading">And lastly, this one. <span className="text-muted">Checkmate.</span></h2>
-                        <p className="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+                        <h2 className="featurette-heading info-title">Why Choose Us</h2>
+                        <p className="lead information">Choosing the right daycare is a significant decision for any family. At Susi's Daycare, we stand out by offering:
+                            <ul className='mt-2 text-start'>
+                                <li className='text'>Experienced and compassionate staff dedicated to your child’s well-being.</li>
+                                <li>Safe and stimulating indoor and outdoor environments for play and learning.</li>
+                                <li>A curriculum designed to promote social, emotional, cognitive, and physical development.</li>
+                                <li>Regular communication with parents to ensure transparency and trust.
+                                    Discover why families in the DFW choose Susi's Daycare for their child's early education journey."</li>
+                            </ul>
+                        </p>
                     </div>
                     <div className="col-md-5">
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
@@ -166,6 +157,23 @@ export default function Landing() {
                 </div>
 
                 <hr className="featurette-divider" />
+
+                <div className="container marketing">
+
+
+                    <div className="row mt-5">
+                        <div className="col-lg-6">
+                            <img className='rounded-circle' width="140" height="140" src={susi} alt="" />
+                            <h2 className='bio-h2'>Susi</h2>
+                            <p className='bio'>Welcome to Susi's Daycare! With years of experience in both Montessori and elementary school settings, I bring a wealth of knowledge and passion to nurturing young minds. I am dedicated to creating a supportive environment where children can learn and grow through structured activities and creative play. My goal is to provide a safe and loving space for each child to flourish.</p>
+                        </div>
+                        <div className="col-lg-6">
+                            <img className='rounded-circle' width="140" height="140" src={santi} alt="" />
+                            <h2 className='bio-h2'>Santi</h2>
+                            <p className='bio'>Hello! I specialize in managing the administrative operations of the daycare, ensuring smooth and efficient daily functions. With a passion for organization and a dedication to creating a nurturing environment, I handle everything from scheduling and paperwork to parent communications, ensuring that every child receives the best care possible.</p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </main>
