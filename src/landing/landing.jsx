@@ -3,7 +3,9 @@ import './landing.css'
 import firstImage from './landing-assets/landing-background-image.jpg'
 import santi from '../assets/santi.png'
 import susi from '../assets/susi.jpg'
-
+import crayons from '../assets/crayons.png'
+import books from '../assets/books.png'
+import woodset from '../assets/woodset.png'
 
 export default function Landing() {
     return (
