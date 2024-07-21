@@ -97,6 +97,12 @@ body {
   
   /* Center align the text within the three columns below the carousel */
   
+.meet-the-team {
+  font-family: "Chicle";
+  color: rgb(234, 127, 255);
+  font-size: 4vw;
+}
+
 .bio {
   font-family: "Comic Neue", cursive;
   font-weight: 400;

@@ -2,7 +2,7 @@ import '../index.css'
 import './landing.css'
 import firstImage from './landing-assets/landing-background-image.jpg'
 import santi from '../assets/santi.png'
-import susi from '../assets/susi.jpg'
+import susi from '../assets/susi.png'
 import crayons from '../assets/crayons.png'
 import books from '../assets/books.png'
 import woodset from '../assets/woodset.png'
@@ -164,16 +164,17 @@ export default function Landing() {
 
 
                     <div className="row mt-5">
-                        <div className="col-lg-6">
+                        <h1 className='mb-5 meet-the-team'>Meet the Team</h1>
+                        <div className="col-lg-12">
                             <img className='rounded-circle' width="140" height="140" src={susi} alt="" />
                             <h2 className='bio-h2'>Susi</h2>
                             <p className='bio'>Welcome to Susi's Daycare! With years of experience in both Montessori and elementary school settings, I bring a wealth of knowledge and passion to nurturing young minds. I am dedicated to creating a supportive environment where children can learn and grow through structured activities and creative play. My goal is to provide a safe and loving space for each child to flourish.</p>
                         </div>
-                        <div className="col-lg-6">
+                        {/* <div className="col-lg-6">
                             <img className='rounded-circle' width="140" height="140" src={santi} alt="" />
                             <h2 className='bio-h2'>Santi</h2>
                             <p className='bio'>Hello! I specialize in managing the administrative operations of the daycare, ensuring smooth and efficient daily functions. With a passion for organization and a dedication to creating a nurturing environment, I handle everything from scheduling and paperwork to parent communications, ensuring that every child receives the best care possible.</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
